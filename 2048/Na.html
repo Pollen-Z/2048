@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- 版权归 ©2022 Haoran Zhang's blog 所有 ! -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>2048 - 小游戏</title>
+
+  <link href="./Na_files/old.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="./Na_files/img/favicon.ico">
+  <link rel="apple-touch-icon" href="./Na_files/img/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport"
+    content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container" id="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+    <p class="game-intro" id="game-intro">欢迎来到 <strong>2048-小游戏 !</strong></p>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container" id="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container" id="tile-container">
+        <div class="tile tile-2 tile-position-2-1 tile-new">
+          <div class="tile-inner">H</div>
+        </div>
+        <div class="tile tile-2 tile-position-4-2 tile-new">
+          <div class="tile-inner">H</div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p>
+      My Website: <a href="http://xn--e1to61bx1d.cn/">http://张皓然.cn/</a><br><br>
+      <strong>版权归 ©2022 Haoran Zhang's blog 所有 !</strong>
+    </p>
+
+    <script async="" src="./Na_files/analytics.js.下载"></script>
+    <script src="./Na_files/animframe_polyfill.js.下载"></script>
+    <script src="./Na_files/keyboard_input_manager.js.下载"></script>
+    <script src="./Na_files/html_actuator.js.下载"></script>
+    <script src="./Na_files/grid.js.下载"></script>
+    <script src="./Na_files/tile.js.下载"></script>
+    <script src="./Na_files/local_score_manager.js.下载"></script>
+    <script src="./Na_files/game_manager.js.下载"></script>
+    <script src="./Na_files/skin_chemistry.js.下载"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-49094472-1', 'cyberzhg.github.io');
+      ga('send', 'pageview');
+    </script>
+
+
+  </div>
+</body>
+
+</html>
